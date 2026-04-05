@@ -1,36 +1,59 @@
 body {
   margin: 0;
-  background: #0a0a0a;
-  color: #00ffcc;
-  font-family: monospace;
+  background: #0d0d0d;
+  color: #eaeaea;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 #terminal {
-  padding: 20px;
-  font-size: 18px;
+  padding: 30px;
+  color: #7CFC00;
+  font-family: monospace;
 }
 
 .hidden {
   display: none;
 }
 
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
 .hero {
-  text-align: center;
   margin-top: 100px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #aaa;
 }
 
 section {
-  margin: 50px;
-  padding: 20px;
-  border: 1px solid #00ffcc;
-  border-radius: 10px;
-  background: rgba(0,255,204,0.05);
+  margin-top: 60px;
 }
 
-ul {
-  list-style: none;
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.project {
+  margin-bottom: 25px;
+}
+
+.project h3 {
+  margin: 0;
+}
+
+.project a {
+  color: #7CFC00;
+  text-decoration: none;
+  font-size: 14px;
 }
